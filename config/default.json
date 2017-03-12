@@ -1,0 +1,13 @@
+{
+  "logger": {
+    "filename": "./logs/app.error.log",
+    "json": true,
+    "timestamp": true,
+    "logstash": true,
+    "showLevel": true,
+    "maxsize": 10000000,
+    "maxFiles": 5
+  },
+
+  "port" : 3000
+}

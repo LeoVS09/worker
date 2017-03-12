@@ -1,0 +1,41 @@
+{
+  "name": "worker",
+  "version": "0.0.1",
+  "description": "server for execution scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony  bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoVS09/worker.git"
+  },
+  "keywords": [
+    "yeps",
+    "nodejs",
+    "server"
+  ],
+  "author": "Vladislav Goncharov <leovs010@gmail.com>",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/LeoVS09/worker/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/LeoVS09/worker/issues"
+  },
+  "homepage": "https://github.com/LeoVS09/worker#readme",
+  "dependencies": {
+    "koa": "^2.1.0",
+    "koa-is-json": "^1.0.0",
+    "statuses": "^1.3.1",
+    "yeps": "^1.0.0",
+    "yeps-error": "^1.0.0",
+    "yeps-logger": "^1.0.0",
+    "yeps-promisify": "^1.0.0",
+    "yeps-router": "^1.0.0"
+  }
+}
